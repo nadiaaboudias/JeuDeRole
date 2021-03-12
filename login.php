@@ -35,8 +35,8 @@ if($_SERVER['REQUEST_METHOD']==="POST"){
 <input type="submit" value="Connexion " name="submit"/>
 
 <p >Vous êtes nouveau ici? <a href="register.php">S'inscrire</a></p>
-<?php if (! empty($message)) { ?>
-    <p><?php echo $message; ?></p>
+<?php if (! empty($msg)) { ?>
+    <p><?php echo $msg; ?></p>
 <?php } ?>
 </form>
 </body>
