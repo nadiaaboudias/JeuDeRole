@@ -1,0 +1,17 @@
+
+$sql = "CREATE DATABASE jeuDeRole";
+
+$sq2 = "CREATE TABLE users (
+  id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  login VARCHAR(30) NOT NULL,
+  email VARCHAR(30) NOT NULL,
+  psswrd INT UNSIGNED NOT NULL,
+  age  INT UNSIGNED NOT NULL
+  )";
+
+  $sq3 = "CREATE TABLE minichat (
+  numero INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  message VARCHAR(255),
+  login VARCHAR(255), 
+  FOREIGN KEY (login) REFERENCES users(login)
+  )";
