@@ -2,7 +2,7 @@
 <?php
 
   $host =  "localhost";
-  $dbname = "jeuDeRoleVer2";
+  $dbname = "jeuDeRole";
   $port = "3306";
   $servername = "localhost";
   $username = "root";
