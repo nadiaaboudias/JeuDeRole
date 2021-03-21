@@ -25,6 +25,6 @@
         ?>
        
         <p>Vous êtes nouveau ici? <a href="<?= route('/register') ?>">S'inscrire</a></p>
-        <p >Vous oubliez mot de passe? <a href="<?= route('/forgot_username') ?>">Réinitialiser le mot de passe</a></p>
+        <p >Vous oubliez mot de passe? <a href="<?= route('/forgot_password') ?>">Réinitialiser le mot de passe</a></p>
 </body>
 </html>
