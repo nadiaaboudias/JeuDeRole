@@ -13,7 +13,7 @@ return [
   '/minichat'=> 'minichat.php',
   '/send_minichat'=> 'send_minichat.php',
   '/process_register'=> 'process_register.php',
-  '/forgot_username'=> 'forgot_username.php',
+  '/forgot_password'=> 'forgot_password.php',
   '/new_password'=> 'new_password.php',
   '/process_create_games'=> 'process_create_games.php',
   
