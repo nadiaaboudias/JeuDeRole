@@ -31,7 +31,7 @@
         
         }
         
-        header("Location: forgot_username.php");
+        header("Location: forgot_passwordame.php");
         exit();	
     } 
 ?>
