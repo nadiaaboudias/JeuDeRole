@@ -10,7 +10,7 @@
 <head> <h1>Nouveau Mot de Passe</h1> </head>
 <body>
     <h2>Entrez votre nom d'utilisateur</h2>
-    <form  action="<?= route('/new_password') ?>" method="POST">
+    <form  action="<?= route('/process_forgot_password') ?>" method="POST">
         <input type="text"  name="login" placeholder="Nom d'utilisateur" required/>
         <input type="text" name="email" placeholder="Email" required/>
         <input type="password" name="psswrd" placeholder="Nouveau Mot de passe" required/>
