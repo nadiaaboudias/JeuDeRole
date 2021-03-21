@@ -12,6 +12,6 @@ KAZEMI Fatemé
 
 ## Prise en main
 Commencez par télécharger le dossier du projet. Ensuite, connectez-vous sur votre serveur local.
-Ensuite, commencez par lancer le fichier SQL "jeuDeRole.sql". Cela va créer une base de données ainsi que toutes les tables nécessaires pour lancer le projet.
+Ensuite, commencez par lancer le fichier SQL "role_playing_games.sql". Cela va créer une base de données ainsi que toutes les tables nécessaires pour lancer le projet.
 Puis, lancer la page "home.php".
 
