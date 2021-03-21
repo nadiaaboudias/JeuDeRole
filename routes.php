@@ -14,7 +14,7 @@ return [
   '/send_minichat'=> 'send_minichat.php',
   '/process_register'=> 'process_register.php',
   '/forgot_password'=> 'forgot_password.php',
-  '/new_password'=> 'new_password.php',
+  '/process_forgot_password'=> 'process_forgot_password.php',
   '/process_create_games'=> 'process_create_games.php',
   
 ];
